@@ -1,0 +1,58 @@
+[
+  {
+    "productId": 1,
+    "productShortName": "BNW",
+    "productFullName": "Bolt Nut Washer",
+    "productDescription": "Available in MS/High Tensile/SS304/SS316 in a wide variety of sizes",
+    "productImage": "assets/products/product1.jpg",
+    "productComment": "Different head types also available/ Quantity discount available"
+  },
+  {
+    "productId": 2,
+    "productShortName": "Flange",
+    "productFullName": "Flanges",
+    "productDescription": "Available in Commercial/Perfect dia and in a wide variety of sizes",
+    "productImage": "assets/products/product2.jpg",
+    "productComment": "Custom flanges as per spec available"
+  },
+  {
+    "productId": 3,
+    "productShortName": "fastener",
+    "productFullName": "Anchor Fastener",
+    "productDescription": "Available in a wide variety of sizes",
+    "productImage": "assets/products/product3.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 4,
+    "productShortName": "bolt",
+    "productFullName": "Eye Bolt",
+    "productDescription": "Available in MS/SS/GI and in a wide variety of sizes",
+    "productImage": "assets/products/product4.jpg",
+    "productComment": "Custom dimensions can be made"
+  },
+  {
+    "productId": 5,
+    "productShortName": "bolt",
+    "productFullName": "Foundation Bolt",
+    "productDescription": "Available in a wide variety of sizes",
+    "productImage": "assets/products/product5.jpg",
+    "productComment": "Customisations Available"
+  },
+  {
+    "productId": 6,
+    "productShortName": "Lamp",
+    "productFullName": "Aviation Lamp",
+    "productDescription": "Heavy duty lamp",
+    "productImage": "assets/products/product6.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 7,
+    "productShortName": "valve",
+    "productFullName": "Butterfly Valve",
+    "productDescription": "Available in a wide variety of sizes",
+    "productImage": "assets/products/product7.jpg",
+    "productComment": ""
+  }
+]

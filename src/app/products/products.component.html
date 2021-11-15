@@ -1,1 +1,28 @@
-<p>products works!</p>
+<div id="pageintro" class="hoc clear">
+  <!-- ################################################################################################ -->
+  <img src="assets/product-banner.jpg" />
+  <article>
+    <p>
+      We supply a wide variety of industrial products. Please browse through our
+      product catalog.
+    </p>
+    <section>
+      <div *ngFor="let product of products; let i = index">
+        <!-- Cards with media area -->
+        <mat-card class="product-card">
+          <mat-card-title-group>
+            <mat-card-title> {{ product.productFullName }}</mat-card-title>
+            <mat-card-subtitle>{{
+              product.productDescription
+            }}</mat-card-subtitle>
+            <img
+              mat-card-lg-image
+              src="/assets/products/product{{ i + 1 }}.jpg"
+            />
+          </mat-card-title-group>
+          <mat-card-content>{{ product.productComment }} </mat-card-content>
+        </mat-card>
+      </div>
+    </section>
+  </article>
+</div>
