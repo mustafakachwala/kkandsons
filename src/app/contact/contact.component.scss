@@ -1,0 +1,30 @@
+.fa {
+  color: #4a344a;
+  font-size: 24px;
+  display: block;
+  width: 30px;
+  float: left;
+}
+.contact-list ul {
+  margin: 0;
+  padding: 0;
+}
+.fa-phone {
+  transform: rotate(100deg);
+}
+
+.map-frame {
+  width: 100%;
+}
+
+.contact-list li span {
+  margin-left: 40px;
+  display: block;
+  line-height: 1.4;
+  font-size: 18px;
+}
+.contact-list li {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  list-style-type: none;
+}

@@ -1,0 +1,305 @@
+<div class="main-container">
+  <header id="header" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <div id="logo" class="heading-title">
+      <img
+        class="kks-logo"
+        src="assets/kks-logo.png"
+        width="94px"
+        height="84px"
+      />
+      <div>
+        <h1><a href="index.html">K K & Sons</a></h1>
+        <p>House of Pipe Fittings & Flanges</p>
+      </div>
+    </div>
+
+    <!-- ################################################################################################ -->
+  </header>
+  <hr />
+  <section id="header" class="hoc clear">
+    <div>
+      <ul class="nospace clear">
+        <li class="one_third first">
+          <div class="block clear">
+            <a href="#"><i class="fas fa-phone"></i></a>
+            <span
+              ><strong>Give us a call:</strong> +91 9371012931 / +91
+              7972202785</span
+            >
+          </div>
+        </li>
+        <li class="one_third">
+          <div class="block clear">
+            <a href="mailto:kkandsons@hotmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <span><strong>Send us a mail:</strong> kkandsons@hotmail.com</span>
+          </div>
+        </li>
+        <li class="one_third">
+          <div class="block clear">
+            <a href="#"><i class="fas fa-clock"></i></a>
+            <span><strong> Mon. - Sat.:</strong> 10.00am - 7.00pm</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="navwrapper" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <nav id="mainav">
+      <ul class="clear">
+        <li routerLinkActive="active">
+          <a routerLinkActive="active" [routerLink]="['/home']">Home</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLinkActive="active" [routerLink]="['/about-us']">About Us</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLinkActive="active" [routerLink]="['/contact-us']"
+            >Contact Us</a
+          >
+        </li>
+        <!-- <li>
+            <a class="drop" href="#">Pages</a>
+            <ul>
+              <li><a href="pages/gallery.html">Gallery</a></li>
+              <li><a href="pages/full-width.html">Full Width</a></li>
+              <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
+              <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
+              <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+              <li><a href="pages/font-icons.html">Font Icons</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="drop" href="#">Dropdown</a>
+            <ul>
+              <li><a href="#">Level 2</a></li>
+              <li>
+                <a class="drop" href="#">Level 2 + Drop</a>
+                <ul>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Link Text</a></li>
+          <li><a href="#">Link Text</a></li>
+          <li><a href="#">Link Text</a></li>
+          <li><a href="#">Long Link Text</a></li> -->
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+    <!-- <div id="searchform">
+        <div>
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Quick Search:</legend>
+              <input type="text" placeholder="Enter search term&hellip;" />
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </fieldset>
+          </form>
+        </div>
+      </div> -->
+    <!-- ################################################################################################ -->
+  </section>
+  <router-outlet></router-outlet>
+</div>
+<div
+  class="bgded overlay row4"
+  style="background-image: url('images/demo/backgrounds/01.png')"
+>
+  <footer id="footer" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <div class="center btmspace-50">
+      <h6 class="heading"></h6>
+      <ul class="faico clear">
+        <!-- <li>
+          <a class="faicon-dribble" href="#"><i class="fab fa-dribbble"></i></a>
+        </li>
+        <li>
+          <a class="faicon-facebook" href="#"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li> -->
+        <li>
+          <a
+            class="faicon-google-plus"
+            href="https://goo.gl/maps/YNXxuHS1MSDHgXKk8"
+            target="_blank"
+            ><i class="fab fa-google-plus-g"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="faicon-linkedin"
+            href="https://www.linkedin.com/in/abbas-kanchwala-50a2b832"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <!-- <li>
+          <a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a>
+        </li> -->
+      </ul>
+      <!-- <p class="nospace">
+        
+      </p> -->
+    </div>
+    <!-- ################################################################################################ -->
+    <hr class="btmspace-50" />
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="heading">Looking for a Industrial Product</h6>
+      <p class="nospace btmspace-15">
+        Let us know and we can help. Click on the button below
+      </p>
+
+      <button (click)="navigateToContact()">Contact Us</button>
+    </div>
+    <div class="one_quarter">
+      <h6 class="heading">Quick Links</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <p class="nospace btmspace-10">
+              <a routerLinkActive="active-link" [routerLink]="['/home']"
+                >Home</a
+              >
+            </p>
+            <p class="nospace btmspace-10">
+              <a routerLinkActive="active-link" [routerLink]="['/about-us']"
+                >About Us</a
+              >
+            </p>
+            <p class="nospace btmspace-10">
+              <a routerLinkActive="active-link" [routerLink]="['/contact-us']"
+                >Contact Us</a
+              >
+            </p>
+            <!-- <time class="block font-xs" datetime="2045-04-06"
+              >Friday, 6<sup>th</sup> April 2045</time
+            > -->
+          </article>
+        </li>
+        <!-- <li>
+          <article>
+            <p class="nospace btmspace-10">
+              <a href="#"
+                >Nunc hendrerit adipiscing nulla donec vestibulum odio quisque
+                gravida morbi.</a
+              >
+            </p>
+            <time class="block font-xs" datetime="2045-04-05"
+              >Thursday, 5<sup>th</sup> April 2045</time
+            >
+          </article>
+        </li> -->
+      </ul>
+    </div>
+    <!-- <div class="one_quarter">
+      <h6 class="heading">Vel condimentum auctor</h6>
+      <ul class="nospace linklist">
+        <li><a href="#">Hendrerit id lacus praesent</a></li>
+        <li><a href="#">Ullamcorper risus gravida</a></li>
+        <li><a href="#">Suscipit tempor turpis</a></li>
+        <li><a href="#">Pede dictum ipsum vel auctor</a></li>
+        <li><a href="#">Leo est tincidunt est sed</a></li>
+      </ul>
+    </div> -->
+    <div class="two_quarter">
+      <h6 class="heading">Contact Us</h6>
+      <ul class="nospace clear">
+        <li>
+          <h3>K K & Sons</h3>
+          <p>
+            Shop No G-11, Shivraj Industrial Premises Co Op Society <br />Plot
+            No. 133, Sector No. 7, PCNDTA, <br />Bhosari, Pune - 411026
+          </p>
+          <p>
+            Email:
+            <a href="mailto:kkandsons@hotmail.com">kkandsons@hotmail.com</a>
+            <br />
+            Phone: +91 9371012931 / +91 7972202785
+          </p>
+        </li>
+        <!-- <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li> -->
+        <!-- <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a class="imgover" href="#"
+            ><img src="images/demo/100x100.png" alt=""
+          /></a>
+        </li> -->
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <p class="fl_left">
+      Copyright &copy; 2021 - All Rights Reserved -
+      <a href="#">kkandsons.com</a>
+    </p>
+    <p class="fl_right">
+      Template by
+      <a
+        target="_blank"
+        href="https://www.os-templates.com/"
+        title="Free Website Templates"
+        >OS Templates</a
+      >
+    </p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
