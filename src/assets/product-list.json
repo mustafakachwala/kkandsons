@@ -54,5 +54,117 @@
     "productDescription": "Available in a wide variety of sizes",
     "productImage": "assets/products/product7.jpg",
     "productComment": ""
+  },
+  {
+    "productId": 8,
+    "productShortName": "barrelnipple",
+    "productFullName": "Barrel Nipple",
+    "productDescription": "Available in a wide variety of sizes and in MS, SS316, SS304, GI, Brass and PVC",
+    "productImage": "assets/products/product8.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 9,
+    "productShortName": "hoseclip",
+    "productFullName": "Hose Clip",
+    "productDescription": "Available in a wide variety of sizes and in MS, SS316, SS304, Brass and PVC",
+    "productImage": "assets/products/product9.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 10,
+    "productShortName": "rubbergasket",
+    "productFullName": "Rubber Gasket",
+    "productDescription": "Available in a wide variety of sizes",
+    "productImage": "assets/products/product10.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 11,
+    "productShortName": "asbestosgasket",
+    "productFullName": "Asbestos Gasket",
+    "productDescription": "Available in a wide variety of sizes",
+    "productImage": "assets/products/product11.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 12,
+    "productShortName": "conduit",
+    "productFullName": "Flexible PVC Conduit",
+    "productDescription": "Available in a wide variety of sizes, colors and brands",
+    "productImage": "assets/products/product12.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 13,
+    "productShortName": "manifold",
+    "productFullName": "Manifold Valve",
+    "productDescription": "Available in MS and SS",
+    "productImage": "assets/products/product13.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 14,
+    "productShortName": "rubberlinedclip",
+    "productFullName": "Rubber Lined Hose Clip",
+    "productDescription": "Available in MS and SS",
+    "productImage": "assets/products/product14.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 15,
+    "productShortName": "pipeclamp",
+    "productFullName": "Rubber Lined Pipe Clamp",
+    "productDescription": "Available in MS and SS",
+    "productImage": "assets/products/product15.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 16,
+    "productShortName": "teflonseal",
+    "productFullName": "Teflon Seal Tape",
+    "productDescription": "Available in various brands and sizes",
+    "productImage": "assets/products/product16.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 17,
+    "productShortName": "union",
+    "productFullName": "Pipe Union",
+    "productDescription": "Available in MS, SS304, SS316, GI, PVC",
+    "productImage": "assets/products/product17.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 18,
+    "productShortName": "tee",
+    "productFullName": "Pipe Tee",
+    "productDescription": "Available in MS, SS304, SS316, GI, PVC",
+    "productImage": "assets/products/product18.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 19,
+    "productShortName": "socket",
+    "productFullName": "Pipe Socket",
+    "productDescription": "Available in MS, SS304, SS316, GI, PVC",
+    "productImage": "assets/products/product19.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 20,
+    "productShortName": "pnuematic",
+    "productFullName": "Pneumatic Pipe Fittings",
+    "productDescription": "Wide range of products available from various known brands",
+    "productImage": "assets/products/product20.jpg",
+    "productComment": ""
+  },
+  {
+    "productId": 21,
+    "productShortName": "plug",
+    "productFullName": "Pipe Plug",
+    "productDescription": "Available in MS, SS304, SS316, GI, PVC",
+    "productImage": "assets/products/product21.jpg",
+    "productComment": ""
   }
 ]
